@@ -36,9 +36,13 @@ img{
 #head p{
     color:#949494;
 }
+#head h6{
+    display:inline;
+}
 #input{
     width:100%;
     margin-bottom:50px;
+    transition:0.8s ease-in-out;
 }
 input{
     color:#fff;
