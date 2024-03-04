@@ -19,12 +19,12 @@ img{
     width:100px;
     height:30px;
 }
-#logo{
+#logo, #trade{
     display:flex;
     align-items:center;
     justify-content: center;
 }
-#logo h6{
+#logo h6, #trade h6{
     align-self: flex-start;
 }
 #head{
@@ -36,13 +36,10 @@ img{
 #head p{
     color:#949494;
 }
-#head h6{
-    display:inline;
-}
 #input{
     width:100%;
     margin-bottom:50px;
-    transition:0.8s ease-in-out;
+    transition:transform 0.1s ease-in-out;
 }
 input{
     color:#fff;
