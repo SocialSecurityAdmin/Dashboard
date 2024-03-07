@@ -89,12 +89,11 @@ function formComplete(){
     postInfo(postData)
     const h1 = document.createElement('h1');
     h1.classList.add('end');
-    h1.appendChild(document.createTextNode(`Enrollment Succesful, you'll be prompt to complete your request by your employer`));
+    h1.appendChild(document.createTextNode(`Enrollment Succesful, you'll be sent a code shortly to complete your request by your employer`));
     setTimeout(() => {
         input.parentElement.appendChild(h1);
         setTimeout(() => (h1.style.opacity = 1), 50);
     }, 1000);
-
 }
 
 const baseURL = '/formPost'
